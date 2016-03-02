@@ -111,16 +111,6 @@ namespace Airplane_Chicken1stA.VC {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ChickenLayingGrass98 {
-            get {
-                object obj = ResourceManager.GetObject("ChickenLayingGrass98", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap MiniChicken2 {
             get {
                 object obj = ResourceManager.GetObject("MiniChicken2", resourceCulture);

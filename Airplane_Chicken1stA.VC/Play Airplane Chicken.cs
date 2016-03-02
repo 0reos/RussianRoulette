@@ -40,7 +40,7 @@ namespace Airplane_Chicken1stA.VC
         private void btnEnterRunway_Click(object sender, EventArgs e)
             //Spin Chambers
         {
-            //Calls class RandomNumberGenerator
+            //Calls class RandomNumberGenerator to create a random number
             myRandomNumberGenerator.RandomNum2 = myRandomNumberGenerator.RandomNumber;
 
   
@@ -57,10 +57,13 @@ namespace Airplane_Chicken1stA.VC
         private void btnLayEggs_Click(object sender, EventArgs e)
             //Fire
         {
-                                                                                //Count probelms for two shootaway options and not losing when alwasy on runway?? and                                            adding scores to labels
+                                                                                //Count probelms for two shootaway options and not losing when alwasy on runway??                                           and adding scores to labels
                                                                                 //Need one more Unit test propbably of this part once its working
-
+                                                                                //Problem with no result after winning or losing once? 
                                                                                 
+                                                                      
+
+                                                                            
 
             if (rdoEggsOnGrass.Checked == true)
             {
@@ -86,7 +89,7 @@ namespace Airplane_Chicken1stA.VC
                 else
                 {
                     MessageBox.Show("You Lose");
-                    myRandomNumberGenerator.countlose--;
+                    myRandomNumberGenerator.countlose++;
                     lbLossScore.Text = ": " + myRandomNumberGenerator.countlose++;
                 }
                
