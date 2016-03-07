@@ -16,22 +16,20 @@ namespace Airplane_Chicken1stA.VC
     {
         //Adding background sound 
         SoundPlayer mySoundBackground = new SoundPlayer(ResourceFile.Airplane_Ambience); 
+        NiceFunctions myNiceFunctions = new NiceFunctions();
+        Play_Airplane_Chicken myPlayAirplaneChicken = new Play_Airplane_Chicken();
         
-
-        //++++++++++++++++++++++++++++____________Add fly over airplane noise into background sound fo first form________________+++++++++++++++++++++
         public Form1()
         {
             InitializeComponent();
             StartPosition = FormStartPosition.CenterScreen;
-            
         }
 
         private void btnPlay_Click(object sender, EventArgs e)
         {
+            //Opens game (in second form)
             this.Hide();
-            Play_Airplane_Chicken playGame = new Play_Airplane_Chicken();
-            playGame.ShowDialog();
- 
+            myNiceFunctions.PlayAirplaneChicken();
         }
 
         private void Form1_Load(object sender, EventArgs e)

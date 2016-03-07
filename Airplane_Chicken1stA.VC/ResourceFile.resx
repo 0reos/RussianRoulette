@@ -127,8 +127,20 @@
   <data name="ChickenLayingGrass_Fixed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\ChickenLayingGrass_Fixed.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Laying_Egg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Laying Egg.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LosingSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\LosingSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="MiniChicken2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\MiniChicken2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MiniChicken3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\MiniChicken3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TaDa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TaDa.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="_57_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\57-512.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

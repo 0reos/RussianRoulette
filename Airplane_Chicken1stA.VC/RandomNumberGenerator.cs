@@ -7,14 +7,15 @@ using System.Windows.Forms.VisualStyles;
 
 namespace Airplane_Chicken1stA.VC
 {
-    class RandomNumberGenerator
+   public class RandomNumberGenerator
     {
-        public int RandomNum2 = 0;
+        public int RDNSelected = 0;
         public int count = 0;
-        public int countwin = 0;                                             // For win and lose under btnLayEggs
+        public int countwin = 0;                                           
         public int countlose = 0;
-        public int Shotawaycount = 2;
-        private int _RandomNumber;
+        public int LayGrassCount = 2;
+        public int _RandomNumber;
+        public bool IsOnGrass = true;
 
         public int RandomNumber 
         {
