@@ -11,7 +11,6 @@ namespace Airplane_Chicken1stA.VC
     {
         //Variables
         public int RDNSelected = 0;
-        public int RandomNum2 = 0;
         public int count = 0;
         public int countwin = 0;                                             
         public int countlose = 0;

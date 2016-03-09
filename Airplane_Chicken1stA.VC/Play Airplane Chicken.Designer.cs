@@ -118,7 +118,7 @@
             // 
             this.btnPlayAgain.BackColor = System.Drawing.Color.CadetBlue;
             this.btnPlayAgain.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPlayAgain.Location = new System.Drawing.Point(11, 274);
+            this.btnPlayAgain.Location = new System.Drawing.Point(11, 251);
             this.btnPlayAgain.Name = "btnPlayAgain";
             this.btnPlayAgain.Size = new System.Drawing.Size(104, 28);
             this.btnPlayAgain.TabIndex = 5;
@@ -130,7 +130,7 @@
             // 
             this.btnExitToMenu.BackColor = System.Drawing.Color.Chocolate;
             this.btnExitToMenu.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExitToMenu.Location = new System.Drawing.Point(11, 301);
+            this.btnExitToMenu.Location = new System.Drawing.Point(11, 303);
             this.btnExitToMenu.Name = "btnExitToMenu";
             this.btnExitToMenu.Size = new System.Drawing.Size(104, 26);
             this.btnExitToMenu.TabIndex = 6;
@@ -234,7 +234,7 @@
             // 
             this.btnClearScores.BackColor = System.Drawing.Color.CadetBlue;
             this.btnClearScores.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClearScores.Location = new System.Drawing.Point(11, 249);
+            this.btnClearScores.Location = new System.Drawing.Point(11, 277);
             this.btnClearScores.Name = "btnClearScores";
             this.btnClearScores.Size = new System.Drawing.Size(104, 27);
             this.btnClearScores.TabIndex = 4;

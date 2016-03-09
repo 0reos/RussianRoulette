@@ -9,6 +9,7 @@ namespace Airplane_Chicken1stA.VC
 {
    public class RandomNumberGenerator
     {
+        //Variables
         public int RDNSelected = 0;
         public int count = 0;
         public int countwin = 0;                                           

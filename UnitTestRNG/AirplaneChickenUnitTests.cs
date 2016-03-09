@@ -10,18 +10,13 @@ namespace Airplane_Chicken_Unit_Tests
     [TestClass]
     public class UnitTest1
     {
-        //public int RandomNum2 = 0;
-        //public int count = 0;
-        //public int countwin = 0;                                             
-        //public int countlose = 0;
-        //public int Shotawaycount = 2;
-        //private int _RandomNumber;
-
+         
         [TestMethod]
         public void RandomNumber()
         {
            RandomNumberGenerator myRandomNumberGenerator = new RandomNumberGenerator();
 
+            //Tests if the random number generated is between 0 and 7 is true 
            Assert.IsTrue((myRandomNumberGenerator.RandomNumber < 7) && (myRandomNumberGenerator.RandomNumber > 0));
         }
         
@@ -30,6 +25,7 @@ namespace Airplane_Chicken_Unit_Tests
         {
             ResetGame myReset = new ResetGame();
 
+            //Tests if 0 is equal to count
             Assert.AreEqual(0, myReset.count);
           
         }

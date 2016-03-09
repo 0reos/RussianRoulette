@@ -14,26 +14,28 @@ namespace Airplane_Chicken1stA.VC
 {
     public partial class Form1: Form
     {
-        //Adding background sound 
+        //Initializing background sound 
         SoundPlayer mySoundBackground = new SoundPlayer(ResourceFile.Airplane_Ambience); 
         NiceFunctions myNiceFunctions = new NiceFunctions();
-        Play_Airplane_Chicken myPlayAirplaneChicken = new Play_Airplane_Chicken();
         
         public Form1()
         {
             InitializeComponent();
+
+            //Sets form in center of the screen
             StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void btnPlay_Click(object sender, EventArgs e)
         {
-            //Opens game (in second form)
-            this.Hide();
+            //Opens game (in second form) while hiding current one
+            Hide();
             myNiceFunctions.PlayAirplaneChicken();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+           //Plays background music for first form
            mySoundBackground.Play();
         }
     }
