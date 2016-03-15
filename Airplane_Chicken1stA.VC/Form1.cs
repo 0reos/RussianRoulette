@@ -13,9 +13,7 @@ using System.Windows.Forms;
 namespace Airplane_Chicken1stA.VC
 {
     public partial class Form1: Form
-    {/// <summary>
-    /// ghjgfhjghj
-    /// </summary>
+    {
         //Initializing background sound 
         SoundPlayer mySoundBackground = new SoundPlayer(ResourceFile.Airplane_Ambience); 
         NiceFunctions myNiceFunctions = new NiceFunctions();
